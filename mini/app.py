@@ -4,7 +4,6 @@ from flask import Flask, g
 from werkzeug.utils import find_modules, import_string
 from mini.db.adapter import init_db
 from flask_cors import CORS
-from mini.blueprints import users
 app = Flask(__name__)
 CORS(app)
 
