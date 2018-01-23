@@ -1,3 +1,4 @@
 .eggs/
 mini.egg-info/
 *.pyc
+mini/db/mini.db
