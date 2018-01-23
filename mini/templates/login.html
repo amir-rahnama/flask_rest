@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="static/style.css" />
+  <script src="{{url_for('users.static', filename='sign_in.js')}}"></script>
+</head>
+
+<body>
+<h2>Sign-in Form</h2>
+
+<div id="id01" class="modal" style="display:block">
+  <form class="modal-content">
+    <div class="container">
+      <h1>Sign in</h1>
+      <hr>
+      <label><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <div class="clearfix">
+        <button id="signup" type="button" class="signupbtn">Sign in</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
