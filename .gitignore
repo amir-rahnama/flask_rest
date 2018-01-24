@@ -2,3 +2,5 @@
 mini.egg-info/
 *.pyc
 mini/db/mini.db
+tests/__pychache__
+.cache
