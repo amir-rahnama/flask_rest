@@ -72,7 +72,11 @@ and then go to `localhost:5000/users`.
 
 ### Run the tests
 
+In order to run tests, just run the following in the root folder:
 
+```
+py.test
+```
 
 
 
