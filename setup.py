@@ -1,4 +1,5 @@
-from setuptools import setup, find_packages
+"""Setup for the app."""
+from setuptools import setup
 
 setup(
     name='mini',
@@ -6,6 +7,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'flask',
+        'sqlite3'
     ],
     setup_requires=[
         'pytest-runner',

@@ -4,10 +4,11 @@ The reason for this repo is to show an example of how you can work with flask bo
 
 * More thorough project structure such as the separation of adapters from blueprints themselves
 * The usage of static files per blueprints
+* Exception handling
+* Unit tests and integration tests
 * Building the image with Docker
 
-I have tried to improve that example with better documentation and a little better front-end page, basically. I also have included some unit tests next to functional tests (which were missing in the flaskr).
-
+I have tried to improve my solution with aforementioned points, basically.
 
 #### Installation
 

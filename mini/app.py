@@ -7,7 +7,6 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-print(os.path.join(app.root_path, 'db', 'mini.db'))
 app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'db', 'mini.db'),
     DEBUG=True,
