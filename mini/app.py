@@ -11,8 +11,8 @@ app.config.update(dict(
     DATABASE=os.path.join(app.root_path, 'db', 'mini.db'),
     DEBUG=True,
     SECRET_KEY=b'_5#y2L"F4Q8z\n\xec]/',
-    USERNAME='admin',
-    PASSWORD='default'
+    USERNAME='admin@altavista.com',
+    PASSWORD='admin'
 ))
 
 app.config.from_envvar('MINI_SETTINGS', silent=True)
