@@ -28,6 +28,12 @@ cd flask_rest
 
 ### Run in development mode
 
+First, install the module:
+
+```
+pip install --editable .
+```
+
 Run the following command:
 
 ```
