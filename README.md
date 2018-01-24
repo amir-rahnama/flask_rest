@@ -24,6 +24,10 @@ Go to the directory of the project:
 cd flask_rest
 ```
 
+
+
+### Run in development mode
+
 Run the following command:
 
 ```
@@ -45,4 +49,68 @@ flask run
 You can now go to `localhost:5000/users`. 
 
 
+
+### Run with docker
+
+First, build the image:
+
+```
+docker build -t flask_rest:latest .
+
+```
+
+and then run it with:
+
+```
+docker run -p 5000:5000 flask_rest
+```
+
+and then go to `localhost:5000/users`. 
+
+
+
+
 ### Run the tests
+
+
+
+
+
+### Routes 
+
+In this app, we support the following four routes:
+
+
+```
+GET /users
+```
+
+This route serves a login template. 
+
+```
+POST /users/login
+```
+
+You can login to the system with the payload:
+
+```
+{
+  username: <username>
+  password: <password>
+}
+```
+
+```
+GET users/login/<username>
+
+```
+
+Using username, you see user's number of visits. 
+
+
+
+```
+POST users/register
+```
+
+
