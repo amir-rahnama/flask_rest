@@ -6,8 +6,7 @@ setup(
     packages=['mini'],
     include_package_data=True,
     install_requires=[
-        'flask',
-        'sqlite3'
+        'flask'
     ],
     setup_requires=[
         'pytest-runner',
