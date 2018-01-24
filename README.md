@@ -87,6 +87,8 @@ GET /users
 
 This route serves a login template. 
 
+---
+
 ```
 POST /users/login
 ```
@@ -99,6 +101,7 @@ You can login to the system with the payload:
   password: <password>
 }
 ```
+---
 
 ```
 GET users/login/<username>
@@ -107,10 +110,19 @@ GET users/login/<username>
 
 Using username, you see user's number of visits. 
 
-
+---
 
 ```
 POST users/register
+```
+
+Register a new user by using the payload:
+
+```
+{
+  username: <username>
+  password: <password>
+}
 ```
 
 
